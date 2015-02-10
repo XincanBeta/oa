@@ -1741,7 +1741,7 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 }
 
 @media screen and (min-resolution: 2dppx) {
-    /* Rules for Retina screens */
+     Rules for Retina screens
     .toolbarButton::before {
         -webkit-transform: scale(0.5);
         transform: scale(0.5);
@@ -2098,9 +2098,4 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     #scaleSelectContainer, #pageNumberLabel {
         display: none;
     }
-}
-
-.toolbarButton.exitFile::before,
-.secondaryToolbarButton.exitFile::before {
-  content: url(images/toolbarButton-exitFile@2x.png);
 }
