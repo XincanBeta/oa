@@ -1018,6 +1018,7 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
   content: url(images/toolbarButton-pageDown-rtl.png);
 }
 
+
 .toolbarButton.zoomOut::before {
   content: url(images/toolbarButton-zoomOut.png);
 }
@@ -1989,4 +1990,9 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   #scaleSelectContainer, #pageNumberLabel {
     display: none;
   }
+}
+
+.toolbarButton.exitFile::before,
+.secondaryToolbarButton.exitFile::before {
+  content: url(images/toolbarButton-exitFile@2x.png);
 }
