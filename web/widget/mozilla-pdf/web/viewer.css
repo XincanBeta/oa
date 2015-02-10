@@ -1062,6 +1062,7 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
     content: url(images/toolbarButton-pageDown-rtl.png);
 }
 
+
 .toolbarButton.zoomOut::before {
     content: url(images/toolbarButton-zoomOut.png);
 }
@@ -1740,7 +1741,7 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 }
 
 @media screen and (min-resolution: 2dppx) {
-    /* Rules for Retina screens */
+     Rules for Retina screens
     .toolbarButton::before {
         -webkit-transform: scale(0.5);
         transform: scale(0.5);

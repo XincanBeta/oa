@@ -4,19 +4,6 @@
     <form class="talbe-search" method="post" action="">
       <div class="row m-t-sm">
         <div class="col-sm-7 m-b-xs">
-          <div class="btn-group">
-            <my-btn-refulsh></my-btn-refulsh>
-            <button type="button" class="btn btn-sm btn-default" title="删除" data-toggle="batch"
-                    ng-disabled="!batchIsActived()" ng-click="deleteItems()">
-              <i class="fa fa-trash-o" tooltip-placement="left" tooltip="删除"></i>
-            </button>
-          </div>
-          <div class="btn-group">
-            <button type="button" class="btn btn-default btn-sm" style="padding: 5px 7px;"
-                    ng-click="openModal()">
-              <i class="fa fa-plus  m-l-xs m-r-xs green-tooltip " tooltip-placement="right" tooltip="新增"></i><!--（ctrl+alt+n）-->
-            </button>
-          </div>
         </div>
         <div class="col-sm-4 col-sm-offset-1 m-b-xs">
           <div class="input-group">
@@ -53,9 +40,6 @@
         <table id="userList" class="table table-hover m-b-none entity-view">
           <thead>
           <tr>
-            <th class="with-checkbox">
-              <input type="checkbox" ng-model="selectAllCheckbox.isChecked" ng-click="selectAllItem()">
-            </th>
             <th style="width:60px">序号</th>
             <th style="width:50%">文件标题</th>
             <th>发起人</th>
@@ -64,10 +48,6 @@
           </thead>
           <tbody>
           <tr bindonce ng-repeat="item in itemList" ng-click="mySliderToggle(item)" ng-class="isSelected(item)">
-            <td>
-              <input type="checkbox" ng-model="item.selected" ng-checked="item.selected"
-                     ng-click="selectItem($event)">
-            </td>
             <td><span bo-text="$index+1"></span></td>
             <!-- todo: 实际序号值从数据库获取 -->
             <td><span bo-text="item.bt"></span></td>
