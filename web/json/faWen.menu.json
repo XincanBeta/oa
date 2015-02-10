@@ -12,7 +12,7 @@
       {
         "menucode": "fw0201",
         "menuname": "拟稿",
-        "templateurl": "templates/faWenShenPi_niGao.html"
+        "templateurl": "templates/online-approval-draft.html"
       },{
         "menucode": "fw0202",
         "menuname": "审稿",
