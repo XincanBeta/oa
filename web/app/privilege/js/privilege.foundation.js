@@ -10,8 +10,8 @@ var privilege = angular.module('myApp.privilege', [
     "ngJsTree",
     'ngSanitize',
     'ngToast',
-    'changeNotification'
-
+    'changeNotification',
+    'brantwills.paging'
 ])
 
 privilege.config(['ngToastProvider', function (ngToast) {

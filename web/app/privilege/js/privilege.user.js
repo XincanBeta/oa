@@ -57,6 +57,26 @@ privilege.controller("UserManageCtrl",
             });
             console.log(selectedUsers)
         }
+
+        $scope.DoCtrlPagingAct = function(text, page){
+            console.log("text",text);
+            console.log("page",page);
+            requestService.doGetRequest("userList2.json").success(function(data){
+                $scope.userList = data;
+            });
+        };
+
+        $scope.currentPage = 1;
+        $scope.pageSize = 10;
+        $scope.total = 100;
+        $scope.dots = "...";
+        $scope.adjacent = "2";
+        $scope.ulClass = "pagination";
+        $scope.activeClass = "active";
+        $scope.disabledClass = "disabled";
+        $scope.hideIfEmpty = true;
+        $scope.scrollTop = true;
+        $scope.showPrevNext = true;
     })
 
 privilege.controller('UserModalCtrl',

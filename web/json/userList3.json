@@ -1,0 +1,26 @@
+[
+  {
+    "userno": "001",
+    "username": "张雷",
+    "deptname": "销售部",
+    "position": "售前经理",
+    "userstate": "有权"
+  },
+  {
+    "userno": "002",
+    "username": "谢继斌",
+    "deptname": "技术部",
+    "position": "后端工程师",
+    "userstate": "有权"
+  },
+  {
+    "userno": "003",
+    "username": "李超",
+    "deptname": "技术部",
+    "position": "前端工程师",
+    "userstate": "有权"
+  }
+]
+
+
+
