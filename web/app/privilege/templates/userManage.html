@@ -100,9 +100,25 @@
         <p class="text-muted m-t">总共0条 当前为第1页</p>
       </div>
       <div class="col-md-6 col-sm-12 text-right text-center-xs">
-        <ul class="pagination pagination-sm m-t-sm m-b-none" data-pages-total=""
-            data-page-current=""></ul>
+        <!--<ul class="pagination pagination-sm m-t-sm m-b-none" data-pages-total=""
+            data-page-current=""></ul>-->
+        <paging
+                class="small pagination"
+                page="currentPage"
+                page-size="pageSize"
+                total="total"
+                adjacent="{{adjacent}}"
+                dots="{{dots}}"
+                scroll-top="{{scrollTop}}"
+                hide-if-empty="{{hideIfEmpty}}"
+                ul-class="{{ulClass}}"
+                active-class="{{activeClass}}"
+                disabled-class="{{disabledClass}}"
+                show-prev-next="{{showPrevNext}}"
+                paging-action="DoCtrlPagingAct('Paging Clicked', page)">
+        </paging>
       </div>
+
     </div>
   </footer>
   <div my-slider-show slider-width="40%" class="entity-panel-wrapper" >

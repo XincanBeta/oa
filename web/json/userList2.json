@@ -1,0 +1,26 @@
+[
+  {
+    "userno": "003",
+    "username": "xxc",
+    "deptname": "技术部",
+    "position": "java开发",
+    "userstate": "有权"
+  },
+  {
+    "userno": "004",
+    "username": "朱文杰",
+    "deptname": "技术部",
+    "position": "前端工程师",
+    "userstate": "有权"
+  },
+  {
+    "userno": "005",
+    "username": "吴冬冬",
+    "deptname": "技术部",
+    "position": "java工程师",
+    "userstate": "有权"
+  }
+]
+
+
+
