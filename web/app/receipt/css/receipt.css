@@ -1,0 +1,64 @@
+.inset {
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+
+ul.nav ul.nav > li:last-child{
+    border-bottom: 0;
+}
+
+
+.control-label-detail{
+    /*text-align: center;*/
+    /*letter-spacing: 8px;*/
+    /*font-weight: 600;*/
+    text-align: left;
+
+    color: #000;
+    /*background: #eee;*/
+    /*border-radius: 4px;*/
+    /*-webkit-border-radius: 4px;*/
+}
+
+/* 填充一个中文字的宽度 */
+.one-word-width:before{
+    content: "中";
+    visibility: hidden;
+}
+
+/* 填充两个中文字的宽度 */
+.two-word-width:before{
+    content: "中中";
+    visibility: hidden;
+}
+
+/* 填充一个英文 i 的宽度：i 的宽相当于半个中文字的宽 */
+.one-i-letter-width:before{
+    content: "i";
+    visibility: hidden;
+}
+
+.one-a-letter-width:before{
+    content: "a";
+    visibility: hidden;
+}
+
+/* 审批单 */
+#approval-form-edit .form-group {
+    margin-left: -55px; /*  */
+}
+/*
+
+#approval-form-edit .pull-left {
+    */
+/*margin-left: -55px;*//*
+
+}
+*/
+
+#approval-form-edit textarea {
+    height: 100px;
+    resize: vertical;
+    max-height: 150px;
+}
+
