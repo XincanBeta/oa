@@ -99,9 +99,6 @@ dispatch.controller('EntityPanelCtrl', function ($scope, $modal, sliderService) 
     }
   }
 
-
-
-
   $scope.editApprovalForm = function () {
     var modalInstance = $modal.open({
       backdrop: "static",
